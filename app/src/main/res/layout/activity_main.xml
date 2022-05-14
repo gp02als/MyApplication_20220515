@@ -12,14 +12,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="이석입니다.3333333"
+        android:text="ID"
         android:textSize="25sp"
     />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="이메일 양식으로 입력"
+        android:inputType="textEmailAddress"
     />
+
+
 
 
 </LinearLayout>
