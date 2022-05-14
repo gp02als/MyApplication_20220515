@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:text="닉네임"
         android:textSize="25sp"
-        />
+    />
 
     <EditText
         android:layout_width="wrap_content"
@@ -52,5 +52,31 @@
         android:textSize="25sp"
         android:hint="입력하세요"
         android:singleLine="true"
-        />
+    />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="이용약관 동의합니다."
+        android:checked="true"
+    />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="(선택) 마케팅 약관에 동의합니다."
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+
+    />
+
+
 </LinearLayout>
